@@ -17,7 +17,7 @@ jobs:
         unzip terraform_"$tf_version"_linux_amd64.zip
         sudo mv terraform /usr/local/bin/
 
-    - name: Verify Terraform version
+    - name: Veri Terraform version
       run: terraform --version
 
     - name: Terraform init
